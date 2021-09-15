@@ -1,0 +1,10 @@
+
+.MuiGrid-item{
+    color: #8A8A8A;
+    font-size: 30 px;
+}
+
+.MuiGrid-container{
+    padding: 100 rem;
+    background-color: blue;
+}
