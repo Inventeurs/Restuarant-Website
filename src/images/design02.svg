@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1621.1" height="1634.007" viewBox="0 0 1621.1 1634.007">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1337" viewBox="0 0 1920 1337">
   <defs>
-    <filter id="Path_28" x="0" y="0" width="1621.1" height="1634.007" filterUnits="userSpaceOnUse">
+    <clipPath id="clip-path">
+      <rect id="Rectangle_148" data-name="Rectangle 148" width="1920" height="1337" transform="translate(0 1241)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Path_28" x="-718.721" y="-136.652" width="1621.1" height="1634.007" filterUnits="userSpaceOnUse">
       <feOffset dy="12" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="49.5" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,7 +11,9 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_28)">
-    <path id="Path_28-2" data-name="Path 28" d="M-82,318.848S305.922,426.567,254.217,797.121s230.755,498.178,215.438,491.2S1201,1621.916-82,1655.257-82,318.848-82,318.848Z" transform="translate(800.72 -182.35)" fill="#ff9f0d"/>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0 -1241)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 1241)" filter="url(#Path_28)">
+      <path id="Path_28-2" data-name="Path 28" d="M-82,318.848S305.922,426.567,254.217,797.121s230.755,498.178,215.438,491.2S1201,1621.916-82,1655.257-82,318.848-82,318.848Z" transform="translate(82 -319)" fill="#ff944d"/>
+    </g>
   </g>
 </svg>

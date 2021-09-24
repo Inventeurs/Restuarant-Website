@@ -1,15 +1,9 @@
 import React from 'react';
-import {
-  DetailCardContainer,
-  DetailCardWrapper,
-  DetailCardTitle,
-  DetailCardCard,
-  DetailCardInfo,
-  DetailCardDesc,
-  Time,
-  Location,
-  Contact
-} from './DetailCardElements';
+import { DetailCardWrapper, DetailCardTitle, DetailCardCard, DetailCardInfo, DetailCardDesc, DetailImg } from './DetailCardElements';
+import clockicon from '../../images/clockicon.svg';
+import locationicon from '../../images/locationicon.svg';
+import phoneicon from '../../images/phoneicon.svg';
+
 
 /*const DetailCard = ({data }) => {
   return (
@@ -32,31 +26,29 @@ import {
 
 const DetailCard = () => {
   return (
-    <DetailCardContainer>
       <DetailCardWrapper>
           <DetailCardCard>
-            <Time/>
+            <DetailImg src= {clockicon} alt="Cart"/>
             <DetailCardInfo>
               <DetailCardTitle>Working Hours</DetailCardTitle>
               <DetailCardDesc>10:00AM - 10:00PM</DetailCardDesc>
             </DetailCardInfo>
           </DetailCardCard>
           <DetailCardCard>
-            <Location/>
+            <DetailImg src= {locationicon} alt="Cart"/>
             <DetailCardInfo>
               <DetailCardTitle>Location</DetailCardTitle>
               <DetailCardDesc>Sector 11, Dwarka, New Delhi</DetailCardDesc>
             </DetailCardInfo>
           </DetailCardCard>
           <DetailCardCard>
-            <Contact/>
+            <DetailImg src= {phoneicon} alt="Cart"/>
             <DetailCardInfo>
               <DetailCardTitle>Contact Number</DetailCardTitle>
               <DetailCardDesc>+91 44833 34494</DetailCardDesc>
             </DetailCardInfo>
           </DetailCardCard>
       </DetailCardWrapper>
-    </DetailCardContainer>
   );
 };
 

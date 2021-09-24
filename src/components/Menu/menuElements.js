@@ -1,34 +1,39 @@
 import styled from 'styled-components';
+import {HiDotsHorizontal} from 'react-icons/hi';
 
 export const MenuContainer = styled.div`
   min-height: 60vh;
   padding: 5rem;
+  font-family: 'Lato';
+  background: #fafafa;
 `;
 
 export const MenuWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 2rem;
-  padding:2rem;
-  font-weight: initial;
+  font-weight: bold;
 `;
 
 export const MenuCard = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  aling-items:center;
-  line-height: 1.05;
   border-radius: 20px;
-  box-shadow: .5rem .5rem 1rem  rgba(0, 0, 0, 0.05);
-  min-height: 35vh;
+  height: 40vh;
   width: 80%;
   background: #D5E0FF;
+  margin-top: 3rem;
+
+  @media (max-width: 820px) {
+    height: 50vh;
+    width: 93%;
+    margin: 0.5rem;
+  }
 `;
 
 export const MenuImg = styled.img`
-  height: 85%;
+  height: 80%;
   width: 85%;
+  margin-top: 2px;
 `;
 
 export const MenuImg2 = styled.img`
@@ -37,15 +42,21 @@ export const MenuImg2 = styled.img`
 `;
 
 export const MenuImg3 = styled.img`
-  height: 25%;
-  width: 25%;
+  height: 30%;
+  width: 30%;
   display: block;
   margin-left: auto;
+  margin-top: -40px;
+
+  @media (max-width:1300px) {
+    margin-top: -58px;
+  }
 `;
 
 export const MenuHeading = styled.h1`
   color: #535353;
   font-size: 65px;
+  
 `;
 
 export const MenuInfo = styled.div`
@@ -54,7 +65,9 @@ export const MenuInfo = styled.div`
   align-items: flex-start;
   justify-content: space-between;
   color: #505050;
-  padding: 2rem;
+  padding: 0 2rem;
+  line-height: 1.05;
+  margin-top: 0px;
 `;
 
 export const MenuMiniItem1 = styled.div`
@@ -80,4 +93,11 @@ export const MenuPrice = styled.p`
 export const MenuDesc = styled.p`
   font-size: 0.75rem;
   margin-bottom: 0.25rem;
+`;
+
+export const Dots = styled(HiDotsHorizontal)`
+  font-size: 3rem;
+  color: #5482FF;
+  margin-left: 1.5rem;
+  overflow: visible;
 `;

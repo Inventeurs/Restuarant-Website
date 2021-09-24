@@ -1,37 +1,36 @@
 import React from 'react';
 import Switch from '@material-ui/core/Switch';
 import { withStyles } from '@material-ui/core/styles';
-//import './ToggleSwitch.css';
 import { SwitchContainer, SwitchH} from './SwitchElements';
 
 const AntSwitch = withStyles((theme) => ({
   root: {
-    width: 30,
-    height: 15,
-    padding: 0,
+    width: 42,
+    height: 22,
+    padding: 1,
     display: 'flex',
   },
   switchBase: {
     padding: 2,
-    color: '#FF9F0D',
+    color: '#FF944D',
     '&$checked': {
-      transform: 'translateX(12px)',
+      transform: 'translateX(18px)',
       color: '#fff',
       '& + $track': {
         opacity: 1,
-        backgroundColor: '#FF9F0D',
-        borderColor: '#FF9F0D',
+        backgroundColor: '#FF944D',
+        borderColor: '#FF944D',
       },
     },
   },
   thumb: {
-    width: 12,
-    height: 12,
+    width: 16,
+    height: 16,
     boxShadow: 'none',
   },
   track: {
-    border: `1px solid #FF9F0D`,
-    borderRadius: 9,
+    border: `1px solid #FF944D`,
+    borderRadius: 10,
     opacity: 1,
     backgroundColor: '#fff',
   },

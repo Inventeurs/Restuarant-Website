@@ -7,12 +7,13 @@ import {
   HomeImg,
   HomeImg2,
   HomeP,
+  HomeP1,
   HomeMiniItem,
   DashMinimize,
   Dots
 } from './HomeElements';
 import food from '../../images/food.png';
-import design2 from '../../images/design02.svg';
+import design2 from '../../images/design2.png';
 
 const Home = () => {
 
@@ -22,6 +23,9 @@ const Home = () => {
           <HomeImg src= {food} alt="Food" />
           <HomeItems>
             <HomeH1>About Us &nbsp; &nbsp;</HomeH1>
+            <HomeP1>We imagine a world where there’s no such thing as a bad cup of coffee and all coffee farmers live prosperously.<br/><br/>
+            Our values include providing fair wages for workers, giving back to the communities we work with, and serving great food.<br/><br/>Our values include providing fair wages for workers, giving back to the communities we work with, and serving great food.<br/>
+            </HomeP1>
             <HomeP>We imagine a world where there’s no such thing as a bad cup of coffee and all coffee farmers live prosperously.<br/><br/>
             Our values include providing fair wages for workers, giving back to the communities we work with, and serving great food.<br/>
             <HomeMiniItem>

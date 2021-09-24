@@ -12,9 +12,11 @@ import {
   DetailCardCard,
   DetailCardInfo,
   DetailCardDesc,
-  Location,
-  Contact
+  DetailImg,
+  DetailImg2
 } from './FooterElements';
+import locationicon from '../../images/locationicon.svg';
+import phoneicon from '../../images/phoneicon.svg';
 
 const Footer = () => {
   return (
@@ -32,14 +34,14 @@ const Footer = () => {
             </FooterDetails>
             <Icons>
               <DetailCardCard>
-                <Location/>
+                <DetailImg src= {locationicon} alt="Cart"/>
                 <DetailCardInfo>
                   <DetailCardTitle>Location</DetailCardTitle>
                   <DetailCardDesc>Sector 11, Dwarka, New Delhi</DetailCardDesc>
                 </DetailCardInfo>
               </DetailCardCard>
               <DetailCardCard>
-                <Contact/>
+                <DetailImg2 src= {phoneicon} alt="Cart"/> 
                 <DetailCardInfo>
                   <DetailCardTitle>Contact Number</DetailCardTitle>
                   <DetailCardDesc>+91 44833 34494</DetailCardDesc>
